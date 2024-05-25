@@ -1,0 +1,101 @@
+@import 'tippy.js/dist/tippy.css';
+.wraper {
+    width: 492px;
+    height: 58px;
+    display: flex;
+    text-decoration: none;
+    color: #000;
+    padding: 9px 16px;
+    // position: absolute;
+    position: relative;
+    z-index: 2;
+    &:active {
+        color: inherit;
+    }
+    &:hover {
+        background-color:  var( --backGroundColorIconandEtc);
+        .iconList {
+            display: block;
+        }
+    }
+}
+.img {
+    border-radius: 60%;
+    width: 36px;
+    height: 40px;
+}
+.wraper-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 420px;
+}
+.wrap-nameandUserName {
+    margin-left: 10px;
+}
+.wrapName {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.usename {
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba(22, 24, 35, 0.5);
+    font-weight: 400;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.name {
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 600;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    height: 30px;
+}
+.iconTicket {
+    margin-left: 8px;
+}
+.iconList {
+    // display: none;
+    // position: relative;
+}
+
+.warperMenu2 {
+    background: #fff;
+    border: none;
+    height: 97px;
+    width: 194px;
+    padding: 0px 12px;
+    border-radius: 10px;
+}
+.Menu2-Item {
+    display: flex;
+    padding: 12px 0px;
+    height: 49px;
+    width: 100%;
+    align-items: center;
+    color: #000;
+    border-bottom: 1px solid var(--backGroundColorIconandEtc);
+    &:hover {
+        color: #fe2c55;
+        .handlHover {
+            fill: #fe2c55;
+        }
+    }
+
+}
+.Menu2-Item--icon {
+    width: 21px;
+    height: 21px;
+}
+.Menu2-Item--Letter {
+    line-height: 21px;
+    height: 21px;
+    margin-left: 12px;
+    font-size: 16px;
+    font-weight: 600;
+}

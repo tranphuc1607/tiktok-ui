@@ -1,0 +1,31 @@
+@import "normalize.css";
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+:root {
+    --backGroundColorIconandEtc: rgba(22, 24, 35, 0.06);
+    --colorLetterOnDarkMode : #fff;
+    --colorLetterOffDarkMode : #000;
+    --backGrounColorRed: rgb(254, 44, 85);
+    --colorLetterBold0: rgba(22, 24, 35);
+    --colorLetterBold1: rgba(22, 24, 35, 0.5);
+    --colorLetterBold2: rgba(22, 24, 35, 0.2);
+    --colorHagtag: rgb(43, 93, 185);;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-rendering: optimizeSpeed;
+}

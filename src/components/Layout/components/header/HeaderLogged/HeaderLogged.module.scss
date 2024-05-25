@@ -1,0 +1,41 @@
+.wraper {
+    height: 36px;
+    width: 290px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.wrap-listOptions {
+    display: flex;
+    height: 32px;
+    width: 152px;
+    justify-content: space-between;
+    align-items: center;
+    // margin-left: 16px;
+}
+.listOption-Messages {
+    width: 32px;
+    height: 32px;
+    font-size: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 16px;
+    cursor: pointer;
+    color: var(rgba(22, 24, 35));
+}
+.listOption-Inbox {
+    height: 32px;
+    color: var(rgba(22, 24, 35));
+    width: 32px;
+}
+.listOption-Representativ-Image {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: aqua;
+}
+.img-header {
+    height: 100%;
+    width: 100%;
+}
