@@ -1,29 +1,48 @@
 .wraper {
     position: absolute;
     min-width: 100px;
-    height: 96px;
-    background-color: #ffffff; /* Màu nền của tooltip */
-    color: #333333; /* Màu chữ của tooltip */
-    border-radius: 10px; /* Độ cong của góc tooltip */
-    font-size: 14px; /* Cỡ chữ của tooltip */
+    min-height: 100px;
+    background-color: #ffffff;
+    color: #333333;
+    border-radius: 10px;
+    font-size: 14px;
     display: flex;
     align-items: center;
     justify-content: center;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    z-index: 999;
+    z-index: 0;
 }
-// .top {
-
-// }
-.bottom {
+.menu2InSearchResult {
+    top: calc(100% + 2px);
+    right: calc(0% - 10px);
+}
+.Menu2InList {
+    top: calc(100% + 2px);
+    right: calc(0% - 6px);
+    box-shadow: 0 0px 15px 3px rgba(0, 0, 0, 0.1);
+}
+.checkBlur {
+    animation: fadeOut .4s 1.5s ease;
+}
+.Menu3Language {
+    position: absolute;
+    top: 0;
     right: 0;
+    box-shadow: 0 0px 15px 3px rgba(0, 0, 0, 0.1);
 }
-// .right {
-
-// }
-// .left {
-
-// }
 .arrowSvg {
     position: absolute;
+    top: -14px;
+    right: 10px;
+    width: 17px;
+    height: 17px;
+    fill: #fff;
+}
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
 }

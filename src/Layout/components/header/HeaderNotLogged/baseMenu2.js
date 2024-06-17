@@ -1,0 +1,68 @@
+import { Menu2IconListItemFeedBack , Menu2IconListItemKeyboard} from "~/asset/fileSVG/SVG";
+
+export const baseMenu2 = [
+    {
+        id:0,
+        icon :Menu2IconListItemFeedBack,
+        tital: "LIVE Creator Hub",
+    },
+    {
+        id:1,
+        icon : Menu2IconListItemFeedBack,
+        tital: "English",
+    },
+    {
+        id:2,
+        icon : Menu2IconListItemFeedBack,
+        tital: "Feedback and help",
+    },
+    {
+        id:3,
+        icon : Menu2IconListItemKeyboard,
+        tital: "Keyboard shortcuts",
+    },
+    {
+        id:4,
+        icon : Menu2IconListItemKeyboard,
+        tital: "Dark mode",
+        buttonDarkMode:true,
+    },
+]
+
+export const listLanguages = [
+        "العربية",
+        "বাঙ্গালি (ভারত)",
+        "Cebuano (Pilipinas)",
+        "Čeština (Česká republika)",
+        "Deutsch",
+        "Ελληνικά (Ελλάδα)",
+        "English",
+        "Español",
+        "Suomi (Suomi)",
+        "Filipino (Pilipinas)",
+        "Français",
+        "עברית (ישראל)",
+        "हिंदी",
+        "Magyar (Magyarország)",
+        "Bahasa Indonesia (Indonesia)",
+        "Italiano (Italia)",
+        "日本語（日本）",
+        "Basa Jawa (Indonesia)",
+        "ខ្មែរ (កម្ពុជា)",
+        "한국어 (대한민국)",
+        "Bahasa Melayu (Malaysia)",
+        "မြန်မာ (မြန်မာ)",
+        "Nederlands (Nederland)",
+        "Polski (Polska)",
+        "Português (Brasil)",
+        "Română (Romania)",
+        "Русский (Россия)",
+        "Svenska (Sverige)",
+        "ภาษาไทย (ไทย)",
+        "Türkçe (Türkiye)",
+        "Українська (Україна)",
+        "اردو",
+        "Tiếng Việt (Việt Nam)",
+        "简体中文",
+        "繁體中文",
+]

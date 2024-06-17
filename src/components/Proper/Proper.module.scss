@@ -1,4 +1,5 @@
 .wraper {
+    position: relative;
     width: 100%;
     max-width: 574px;
     margin-top: 8px;
@@ -6,20 +7,17 @@
     box-shadow: rgba(0, 0, 0, 0.12) 0px 2px 12px;
     border-radius: 8px;
     max-height: min(-156px + 100vh, 760px);
-    // overflow-y: scroll visible;
-    // overflow-x: visible;
-    // overflow-x: visible;
-    overflow-y: scroll;
+    overflow:auto;
     list-style-type: none;
     padding-inline-start: 0px;
     display: flex;
     flex-direction: column;
     z-index: 1;
 }
-::-webkit-scrollbar {
+.wraper::-webkit-scrollbar {
     width: 7px;
 }
-::-webkit-scrollbar-thumb {
+.wraper::-webkit-scrollbar-thumb {
     border-radius: 10px;
     background-color: var(--backGroundColorIconandEtc);
 }

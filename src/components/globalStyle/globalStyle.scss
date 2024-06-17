@@ -10,7 +10,7 @@
     --colorLetterBold0: rgba(22, 24, 35);
     --colorLetterBold1: rgba(22, 24, 35, 0.5);
     --colorLetterBold2: rgba(22, 24, 35, 0.2);
-    --colorHagtag: rgb(43, 93, 185);;
+    --colorHagtag: rgb(43, 93, 185);
 }
 
 * {
@@ -21,6 +21,7 @@
 
 html {
     font-size: 62.5%;
+    overflow-x : hidden;
 }
 
 body {
@@ -28,4 +29,23 @@ body {
     font-size: 1.6rem;
     line-height: 1.5;
     text-rendering: optimizeSpeed;
+    height: 100%;
+    
+}
+
+@keyframes deleteBackGroundMenu {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0.5;
+    }
+}
+
+::-webkit-scrollbar {
+    width: 9px;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: var(--backGroundColorIconandEtc);
 }

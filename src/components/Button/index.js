@@ -4,7 +4,7 @@ import classNames from 'classnames/bind';
 
 const cx = classNames.bind(style)
 
-function Button( { to, href , buttonLogin, children, onClick , ...classProps } ) {
+function Button( { to, href , buttonLogin,Transform, buttonDone,feedBackBox,buttonInSidebar,buttonFollow, children, onClick , ...classProps } ) {
 
     let Comp = "button"
     const props = {
@@ -26,6 +26,11 @@ function Button( { to, href , buttonLogin, children, onClick , ...classProps } )
 
     const classesWrap = cx('wraper', {
         buttonLogin,
+        buttonDone,
+        feedBackBox,
+        Transform,
+        buttonInSidebar,
+        buttonFollow,
     });
 
     // const classesChildren = cx('chidrenButton',

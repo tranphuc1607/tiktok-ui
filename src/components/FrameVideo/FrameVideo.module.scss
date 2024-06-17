@@ -1,0 +1,45 @@
+.animation {
+    border: 2px solid #fe2c55;
+}
+.wrapImg {
+    border: 2px solid #fe2c554d;
+    animation: zoom 2s ease infinite;
+}
+
+
+ @keyframes zoom {
+     0% {
+        transform: translate(-50% , -50%) scale(1);
+     }
+     10% {
+        transform: translate(-50% , -50%) scale(0.98);
+     }
+     20% {
+        transform: translate(-50% , -50%) scale(0.96);
+     }
+     30% {
+        transform: translate(-50% , -50%) scale(0.94);
+     }
+     40% {
+        transform: translate(-50% , -50%) scale(0.92);
+     }
+     50% {
+        transform: translate(-50% , -50%) scale(0.91);
+     }
+     60% {
+        transform: translate(-50% , -50%) scale(0.92);
+     }
+     70% {
+        transform: translate(-50% , -50%) scale(0.94);
+     }
+     80% {
+        transform: translate(-50% , -50%) scale(0.96);
+     }
+     90% {
+        transform: translate(-50% , -50%) scale(0.98);
+     }
+     100% {
+        transform: translate(-50% , -50%) scale(1);
+     }
+ }
+

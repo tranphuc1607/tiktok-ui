@@ -2,7 +2,7 @@ import Home from "~/page/Home"
 import Following from "~/page/Following"
 import Profile from "~/page/Profile"
 import Upload from "~/page/Upload"
-import { HeaderOnly } from "~/components/Layout"
+import { HeaderOnly } from "~/Layout"
 import Search from "~/page/Search"
 import Login from "~/page/Login/Login"
 
