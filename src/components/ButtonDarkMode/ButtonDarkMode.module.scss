@@ -9,16 +9,16 @@
     cursor: pointer;
 }
 .toggle::after {
-    content: "";
+    content: '';
     left: 3px;
     top: 50%;
-    transform: translate(0,-50%);
+    transform: translate(0, -50%);
     position: absolute;
     width: 20px;
     height: 20px;
     background-color: #fff;
     border-radius: 100%;
-    transition: all .3s ease;
+    transition: all 0.3s ease;
 }
 
 .buttonDarkMode {
@@ -27,5 +27,5 @@
 .buttonDarkMode::after {
     right: 0;
     top: 50%;
-    transform: translate(19px , -50%);
+    transform: translate(19px, -50%);
 }

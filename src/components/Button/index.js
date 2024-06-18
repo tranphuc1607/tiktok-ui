@@ -1,27 +1,35 @@
-import style from './Button.module.scss'
-import { Link } from "react-router-dom"
+import style from './Button.module.scss';
+import { Link } from 'react-router-dom';
 import classNames from 'classnames/bind';
 
-const cx = classNames.bind(style)
+const cx = classNames.bind(style);
 
-function Button( { to, href , buttonLogin,Transform, buttonDone,feedBackBox,buttonInSidebar,buttonFollow, children, onClick , ...classProps } ) {
-
-    let Comp = "button"
+function Button({
+    to,
+    href,
+    buttonLogin,
+    Transform,
+    buttonDone,
+    feedBackBox,
+    buttonInSidebar,
+    buttonFollow,
+    buttonGetApp,
+    children,
+    onClick,
+    ...classProps
+}) {
+    let Comp = 'button';
     const props = {
         onClick,
-        ...classProps
-    }
+        ...classProps,
+    };
 
-
-
-    if(to) {
+    if (to) {
         props.to = to;
         Comp = Link;
-    }
-    else if(href) {
-        Comp = 'a'
+    } else if (href) {
+        Comp = 'a';
         props.href = href;
-
     }
 
     const classesWrap = cx('wraper', {
@@ -31,16 +39,14 @@ function Button( { to, href , buttonLogin,Transform, buttonDone,feedBackBox,butt
         Transform,
         buttonInSidebar,
         buttonFollow,
+        buttonGetApp,
     });
 
-    // const classesChildren = cx('chidrenButton',
-
-    // )
-    return ( 
-        <Comp className= {classesWrap} {...props}>
+    return (
+        <Comp className={classesWrap} {...props}>
             <span>{children}</span>
         </Comp>
-     );
+    );
 }
 
 export default Button;

@@ -1,0 +1,15 @@
+.checkScroll {
+    position: fixed;
+    bottom: -32px;
+    right: 23px;
+    width: 90px;
+    height: 76px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: space-between;
+    transition: all 0.4s ease-in-out;
+}
+.checkScrollWhenOnClick {
+    bottom: 8px;
+}

@@ -7,8 +7,8 @@
     height: 100%;
     background: rgba(0, 0, 0, 0.5);
     z-index: 1;
-    font-size:14px;
-} 
+    font-size: 14px;
+}
 .container {
     position: relative;
     width: 700px;
@@ -21,7 +21,7 @@
     border-radius: 8px;
     overflow: hidden;
     box-shadow: rgba(0, 0, 0, 0.12) 0px 2px 12px;
-    animation: menu3 .2s ease-in-out;
+    animation: menu3 0.2s ease-in-out;
 }
 
 .fixed-box {
@@ -72,15 +72,15 @@
 
 @keyframes menu3 {
     0% {
-        transform: scale(0.8); 
-        opacity: 0; 
+        transform: scale(0.8);
+        opacity: 0;
     }
     50% {
-        transform: scale(0.9); 
-        opacity: 0.5; 
+        transform: scale(0.9);
+        opacity: 0.5;
     }
     100% {
-        transform: scale(1); 
-        opacity: 1; 
+        transform: scale(1);
+        opacity: 1;
     }
 }

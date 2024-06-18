@@ -1,12 +1,10 @@
-import style from"./Upload.module.scss"
-import classNames from "classnames/bind";
+import style from './Upload.module.scss';
+import classNames from 'classnames/bind';
 
-const cx = classNames.bind(style)
+const cx = classNames.bind(style);
 
 function Upload() {
-    return ( 
-        <div>Upload page</div>
-     );
+    return <div>Upload page</div>;
 }
 
 export default Upload;

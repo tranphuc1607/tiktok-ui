@@ -1,10 +1,7 @@
-const {override , useBabelRc,addPostcssPlugins} = require("customize-cra");
+const { override, useBabelRc, addPostcssPlugins } = require('customize-cra');
 
 module.exports = override(
-  // eslint-disable-next-line react-hooks/rules-of-hooks
-  useBabelRc(),
-  addPostcssPlugins([
-    require('tailwindcss'),
-    require('autoprefixer'),
-  ]),
+    // eslint-disable-next-line react-hooks/rules-of-hooks
+    useBabelRc(),
+    addPostcssPlugins([require('tailwindcss'), require('autoprefixer')]),
 );
