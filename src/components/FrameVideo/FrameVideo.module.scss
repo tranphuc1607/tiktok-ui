@@ -5,7 +5,29 @@
     border: 2px solid #fe2c554d;
     animation: zoom 2s ease infinite;
 }
-
+.image {
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 100%;
+    background-color: rgb(254, 44, 85);
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    &:hover {
+        background-color: rgb(230, 39, 77);
+    }
+}
+.changeBackGround {
+    background-color: #ffffff;
+    &:hover {
+        background-color: #eeeeee;
+    }
+}
 @keyframes zoom {
     0% {
         transform: translate(-50%, -50%) scale(1);

@@ -13,7 +13,7 @@ const cx = classNames.bind(style);
 function Sidebar() {
     const [hoverSidebar, setHoverSidebar] = useState(false);
     const classWrap = cx(
-        'w-[240px] fixed h-hasContainer flex flex-col items-start justify-start bg-transparent overflow-y-auto overscroll-y-none pt-[20px] pl-[8px] pb-[26px] z-0',
+        'w-[240px] fixed h-hasContainer flex flex-col items-start justify-start bg-transparent overflow-y-auto overscroll-y-none pt-[20px] pl-[8px] pb-[26px]  lg:block test:hidden',
         {
             customScrollBarInHover: hoverSidebar,
             customScrollBar: true,

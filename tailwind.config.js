@@ -65,6 +65,9 @@ module.exports = {
                 fadeOut: 'fadeOut .4s ease',
                 fading: 'fading .7s ease',
             },
+            screens: {
+                test: '400px',
+            },
         },
     },
     plugins: [],

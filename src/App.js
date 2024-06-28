@@ -28,8 +28,6 @@ function App() {
         setIconClose,
     } = useCustomState();
 
-    console.log(checkClickKeyboardShotcut);
-
     useCustomEffect1(clickIconCloseInMenu3, setClickMenu2Item, setClickIconCloseInMenu3);
     useCustomEffect2(clickButtonDone, setClickMenu2Item, setClickButtonDone, setClickMenu3Item);
     useCustomEffect3(iconClose, setCheckClickKeyboardShotcut, setIconClose);
